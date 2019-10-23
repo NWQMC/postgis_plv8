@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TAG_NAME=$DOCKER_REPO:11-2.3.8
+docker tag $IMAGE_NAME $TAG_NAME
+docker push $TAG_NAME
